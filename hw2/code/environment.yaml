@@ -1,0 +1,25 @@
+name: cse446
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - numpy==1.20.3
+  - pandas==1.2.4
+  - invoke
+  - black
+  - flake8
+  - isort
+  - mypy
+  - tqdm
+  - pip
+  - pytorch==1.9.0
+  - torchvision
+  - pip:
+    - gradescope-utils==0.4.0
+    - wget==3.2
+    - .  # cse446utils (aka utils import)
